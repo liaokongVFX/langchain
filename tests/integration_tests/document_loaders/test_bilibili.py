@@ -10,7 +10,6 @@ def test_bilibili_loader() -> None:
         ]
     )
     docs = loader.load()
-    print(docs)
 
     assert len(docs) == 2
 
